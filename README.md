@@ -15,9 +15,9 @@ Purpose of config.yaml
 2) Any change in the config.yaml file will update both Client and Server Scripts
 
 Development environment :
--Ubuntu 18.04.1 LTS 
--Python 3
--Editor used : gedit 
+- Ubuntu 18.04.1 LTS 
+- Python 3
+- Editor used : gedit 
 
  Test Run procedure?
 1) Run the Server Script First: python3 TcpServer.py 
