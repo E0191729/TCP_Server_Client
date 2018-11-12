@@ -1,8 +1,22 @@
-# Multiple-Client-Server-Program-in-C-using-fork
-A simple tcp client server application that describes the communication between the client and a server. The server is a simple echo sever that can handle multiple client using fork.
+# Multiple-Client-Server-Program-in-Python
 
-An echo server is a server that send back the same message that the client has send the server. 
-Like:
+This TCP Server-Client Communication program consists of two scripts and one config YAML file. 
 
-Client send - abc<br/>
-Server recv - abc
+Purpose of Server.py:
+1) Process and respond to Client
+2) Broadcast message to all the connected Clients
+
+Purpose of Client.py
+1) Send messages entered by the user to the Server
+2) Constantly poll for the new messages from Server
+
+Development environment :
+Ubuntu 18.04.1 LTS 
+Python 3
+Editor used : gedit 
+
+ Test Run procedure?
+1) Run the Server Script First: python3 TcpServer.py 
+2) Once the Server is up, Run the Client Script: python3 TcpClient.py
+3) Enter the username to start communicating. 
+4) Run Multiple Clients for interactive communication.
