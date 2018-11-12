@@ -1,0 +1,10 @@
+# The username of the Host
+HOST: ""
+
+# The Port Number 
+PORT: 33000
+
+# Buffer size
+BUFFER: 1024
+
+
